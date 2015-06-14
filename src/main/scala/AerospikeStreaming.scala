@@ -17,7 +17,7 @@ class AEPublisher(rs: RecordSet) extends ActorPublisher[Record] {
   }
 }
 
-object CustomersExample extends App {
+object AerospikeStreaming extends App {
   implicit val actorSystem = ActorSystem()
   implicit val flowMaterializer = ActorFlowMaterializer()
 
